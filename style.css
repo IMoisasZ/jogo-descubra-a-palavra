@@ -1,0 +1,42 @@
+*{
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(245, 238, 238);
+}
+
+.btn-info {
+    width: 40px;
+}
+
+#add-word,
+#reiniciar-jogo,
+#random
+{
+    width: 170px;
+}
+
+#word-search{
+    font-size: 60px;
+    color: green;
+}
+
+#p-try{
+    font-size: 20px;
+}
+
+.bi{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
