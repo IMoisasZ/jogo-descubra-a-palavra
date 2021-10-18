@@ -16,12 +16,10 @@
 </head>
 <body>
     <div class="main">
-    <header class="container-fluid m-4">
         <h1>DESCUBRA A PALAVRA</h1>
-    </header>
-        <div class="container-fluid leters">
+        <div class="container leters">
             <div class="row m-4">
-                <div class="col-md-7 mt-4">
+                <div class="col-md-6 mt-4">
                     <div class="word">
                         <input id="word" class="form-control" type="text" placeholder="Digite a palavra a ser descoberta!" style="text-transform: uppercase">
                         <div class="btns mt-2">
@@ -30,14 +28,8 @@
                             <button id="random" class="btn btn-info m-2" type="submit">Palavra Automatica</button>
                         </div>
                     </div>
-                    <div class="forca">
-                        <span id="word-search"></span>
-                    </div>
-                    <div class="try">
-                        <p id="p-try" hidden >Numero de tentativas: <span id="try"></span> <i class="bi bi-suit-heart-fill"></i></p>
-                    </div>
                 </div>
-                <div class="col-md-5 mt-4">
+                <div class="col-md-6 mt-4">
                     <div class="row">
                         <div class="col-md-12">
                             <button class="l btn btn-info" id="letra-a" type="submit" value="A">A</button>
@@ -75,6 +67,13 @@
                 </div>
             </div>
         </div>
-    </div>
-</body>
+        <div class="container c-forca">
+            <div class="forca">
+                <p id="word-search"></p>
+            </div>
+            <div class="try">
+                <p id="p-try" hidden >Numero de tentativas: <span id="try"></span> <i class="bi bi-suit-heart-fill"></i></p>
+            </div>
+        </div>
+    </body>
 </html>
