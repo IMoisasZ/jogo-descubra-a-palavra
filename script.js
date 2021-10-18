@@ -202,8 +202,8 @@ btnOk.onclick = () => {
         verificarPalavra(palavra.value)
         btnOk.disabled = true
         palavra.disabled = true
+        palavra.hidden = true
         habilitarBotoesLetras()
-        palavra.style.color = 'transparent'
         document.getElementById('p-try').hidden = false
         document.getElementById('try').innerText = tentativa
         espacosPalavra(palavra.value)
