@@ -6,24 +6,34 @@ body{
     background-color: rgb(245, 238, 238);
 }
 
+#word{
+    text-align: center;
+}
+
 .btn-info {
-    width: 40px;
+    width: 2rem;
+    padding: 0%;
 }
 
 #add-word,
 #reiniciar-jogo,
 #random
 {
-    width: 170px;
+    width: 25%;
 }
 
 #word-search{
-    font-size: 60px;
+    font-size: 5rem;
     color: green;
 }
 
+.try{
+    display: block;
+}
+
 #p-try{
-    font-size: 20px;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .bi{
@@ -39,4 +49,88 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#word-search{
+    word-wrap: break-word;
+    font-size: 4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+    #word-search{
+        word-wrap: break-word;
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #word-search{
+        word-wrap: break-word;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .btn-info{
+        font-size: .8rem;
+    }
+    #word{
+        font-size: .8rem;
+    }
+    #word-search{
+        word-wrap: break-word;
+        font-size: 2.2rem;
+    }
+  }
+
+@media screen and (max-width: 780px) {
+    #word-search{
+        word-wrap: break-word;
+        font-size: 4.5rem;
+    }
+    #word-search{
+        word-wrap: break-word;
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btn-info{
+        font-size: .6rem;
+    }
+
+    #word{
+        font-size: .6rem;
+    }
+}   
+
+@media screen and (max-width: 320px) {
+    .btn-info{
+        font-size: .5rem;
+    }
+
+    #word{
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .btn-info{
+        font-size: .2rem;
+    }
+
+    #word{
+        font-size: .2rem;
+    }
+}
+
+@media screen and (max-width: 180px) {
+    .btn-info{
+        font-size: .1rem;
+    }
+
+    #word{
+        font-size: .1rem;
+    }
 }
